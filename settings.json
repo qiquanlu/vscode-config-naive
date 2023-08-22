@@ -1,11 +1,52 @@
 {
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "security.workspace.trust.untrustedFiles": "open",
+
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll.eslint": true
   },
-  "volar.takeOverMode.enabled": true,
-  "[vue]": {
+  "[graphql]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "editor.largeFileOptimizations": false,
+  "svg.preview.mode": "svg",
+  "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "off",
+  "workbench.startupEditor": "none",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": false,
+  "explorer.confirmDelete": false,
+  "vite.autoStart": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "cmake.configureOnOpen": false,
+  "git.enableSmartCommit": true,
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "editor.inlineSuggest.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "go.trace.server": "messages",
+  "go.toolsManagement.autoUpdate": true,
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "vue.codeActions.savingTimeLimit": 2000
 }
